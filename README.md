@@ -18,7 +18,11 @@
 - три промежуточных тест класса (содержат общие методы для группы тестов, ссылки на хранение драйверов).
 
 Как запустить проект:
-- загрузить проект из данного репозитория в IntelliJIdea;
+- запустить IntelliJIdea;
+- перейти: file/new/Project From Version Control…;
+  - выбрать git, как систему контроля версий;
+  - вставить в URL:  [https://github.com/BilobrovetsKS/QA-engineer-test-case2.2](https://github.com/BilobrovetsKS/QA-engineer-test-case2.2..git).
+  - нажать на clone;
 - изменить путь хранения драйверов в файле testForBasic/src/test/resources/conf.properties;
 - перейти к файлам по пути testForBasic/src/test/java/tests;
 - подгрузить все необходимые библиотеки;
